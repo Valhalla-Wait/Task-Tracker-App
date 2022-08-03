@@ -1,0 +1,66 @@
+:root {
+  /* COLORS */
+  /* Default */
+  --color-error-default: #ff0b37;
+  --color-mainblue-default: #0062ff;
+  --color-success-default: #3dd598;
+  --color-warning-default: #ffb800;
+  /* TimeLines */
+  --color-timelines-blue: #a4e3fe;
+  --color-timelines-orange: #ffc28a;
+  --color-timelines-pink: #ff9de4;
+  --color-timelines-purple: #c3aeff;
+  --color-timelines-red: #ff9d9d;
+  /* Named */
+  --color-blue: #50b5ff;
+  --color-orange: #ff974a;
+  --color-pink: #ff9ad5;
+  --color-purple: #a461d8;
+  --color-red: #fc5a5a;
+  --color-salad: #82c43c;
+  --color-yellow: #ffc542;
+  /* Gray */
+  --color-grey0: #ffffff;
+  --color-grey100: #fafafb;
+  --color-grey200: #f1f1f5;
+  --color-grey300: #e2e2ea;
+  --color-grey400: #d5d5dc;
+  --color-grey500: #b5b5be;
+  --color-grey600: #92929d;
+  --color-grey700: #696974;
+  --color-grey800: #44444f;
+  --color-grey900: #171725;
+  /* UnNamed */
+  --color-unnamed-blue: #0073ff;
+  --color-unnamed-lightgray: #dcdce0;
+  --color-unnamed-orange: #ff9700;
+  /* Transparent */
+  --color-mainblue-default-0pct: #0062ff00;
+  --color-mainblue-default-5pct: #0062ff0d;
+  --color-error-default-5pct: #ff0b380d;
+  --color-blue-10pct: #50b6ff1a;
+  --color-salad-10pct: #82c43c1a;
+  --color-grey800-10pct: #44444f1a;
+  --color-grey800-50pct: #44444f80;
+  --color-unnamed-blue1-15pct: #c4dbff26;
+  --color-unnamed-red-5pct: #ff0b380d;
+
+  /* FONTS */
+  --h1-32_40-bold: 32px/40px 'Inter-Bold';
+  --h2-24_32-medium: 24px/32px 'Inter-Medium';
+  --h3-20_32-regular: 20px/32px 'Inter-Regular';
+  --h4-18_24-bold: 18px/24px 'Inter-Bold';
+  --h4-18_24-medium: 18px/24px 'Inter-Medium';
+  --h5-16_24-medium: 16px/24px 'Inter-Medium';
+  --h5-16_24-regular: 16px/24px 'Inter-Regular';
+  --h6-12_16-bold: 12px/16px 'Inter-Bold'; /* в т.ч. UPPERCASE*/
+  --h6-12_16-medium: 12px/16px 'Inter-Medium'; /* UPPERCASE*/
+  --paragraph-14_24-regular: 14px/24px 'Inter-Regular';
+  --paragraph-14_20-regular: 14px/20px 'Inter-Regular';
+  --paragraph-14_16-regular: 14px/16px 'Inter-Regular'; /* вместо Roboto 14|16.41 regular */
+  --paragraph-14_20-semibold: 14px/20px 'Inter-SemiBold';
+  --paragraph-14_24-semibold: 14px/24px 'Inter-SemiBold';
+  --paragraph-14_21-medium: 14px/21px 'Inter-Medium'; /* вместо Poppins 14|21 medium */
+  --paragraph-14_24-light: 14px/24px 'Inter-Medium';
+  --mini-10_16-regular: 10px/16px 'Inter-Regular';
+}

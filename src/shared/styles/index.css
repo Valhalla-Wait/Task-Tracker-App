@@ -1,0 +1,102 @@
+@import 'normalize.css';
+@import 'variables.css';
+@import '/src/shared/styles/fonts/index.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+button {
+  padding: 0;
+  background: none;
+  border: none;
+  margin: 0;
+}
+.ant-tooltip {
+  max-width: none !important;
+}
+.ant-tooltip-inner {
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.ant-tooltip-placement-top {
+  padding: 0 !important;
+}
+.ant-tooltip-arrow-content {
+  --antd-arrow-background-color: var(--arrow-color, none) !important;
+  margin-bottom: 1px !important;
+}
+
+.ant-modal-content {
+  border-radius: 16px !important;
+}
+
+.ant-popover-inner {
+  border-radius: 20px !important;
+}
+
+.ant-picker-now {
+  display: none !important;
+}
+
+.ant-picker {
+  padding: 0px 0px !important;
+  border: none !important;
+  background: var(--color-grey100) !important;
+}
+
+.ant-picker-focused {
+  box-shadow: none !important;
+}
+
+.ant-picker-input input::placeholder {
+  color: black !important;
+}
+
+.modal_add_users button:disabled {
+  text-transform: uppercase;
+  border: none;
+  background: none !important;
+  cursor: not-allowed;
+}
+.ant-popover-disabled-compatible-wrapper {
+  pointer-events: none !important;
+  opacity: 0.5;
+}
+@media (max-width: 654px) {
+  .ant-popover-arrow {
+    height: 0px !important;
+  }
+  .ant-popover-title {
+    border-bottom: none !important;
+  }
+}
+.ant-upload.ant-upload-disabled {
+  color: rgba(0, 0, 0, 0.25);
+}
+@media (max-width: 939px) {
+  .ant-collapse-borderless > .ant-collapse-item:last-child,
+  .ant-collapse-borderless > .ant-collapse-item:last-child .ant-collapse-header {
+    background: #fff !important;
+  }
+  .ant-collapse-borderless > .ant-collapse-item > .ant-collapse-content {
+    background: #fff !important;
+  }
+  .ant-picker-input > input[disabled] {
+    background: #fff !important;
+  }
+  .ant-picker {
+    background: #fff !important;
+  }
+}
+.FilterTagDropdown .ant-select-item-option-content {
+  display: flex;
+}

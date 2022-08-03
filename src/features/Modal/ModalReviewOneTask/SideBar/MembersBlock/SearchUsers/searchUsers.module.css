@@ -1,0 +1,4 @@
+.modal_input_search,
+.modal_input_search:focus {
+  border-radius: 20px !important;
+}

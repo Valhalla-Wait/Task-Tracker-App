@@ -1,0 +1,4 @@
+.option_priority :global(.ant-select-item) {
+  font: var(--paragraph-14_20-regular) !important;
+  padding: 7px 20px 7px 18px !important;
+}

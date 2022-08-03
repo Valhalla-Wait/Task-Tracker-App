@@ -1,0 +1,9 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Styling your project before committing..."
+
+npx --no-install lint-staged
+
+
+npx lint-staged
